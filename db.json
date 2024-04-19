@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "763e",
+      "title": "dcfy",
+      "content": "df",
+      "views": "fgs"
+    },
+    {
+      "id": "2652",
+      "title": "elona",
+      "content": "elona thaqi",
+      "views": "123"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
