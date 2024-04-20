@@ -44,11 +44,11 @@ export const TextManipulatorProvider = ({ children }) => {
   };
 
   const replaceText = (search, replacement) => {
-    setText(text.replace(new RegExp(search, "gi"), replacement));
+    setText(text.replace(new RegExp(search, "gi"), replacement))
   };
 
-  const [replaceWord, setReplaceWord] = useState("");
-  const [newWord, setNewWord] = useState("");
+  const [replaceWord, setReplaceWord] = useState("")
+  const [newWord, setNewWord] = useState("")
 
   return (
     <TextManipulatorContext.Provider

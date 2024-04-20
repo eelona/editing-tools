@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledTextArea = styled.textarea`
   width: 80%;
-  height: 650px;
+  height: 600px;
   padding: 10px;
   font-size: 16px;
   border: 2px solid #ccc;
@@ -37,9 +37,53 @@ export const StyledButton = styled.button`
   }
 `;
 
+export const ReplaceButton = styled.button`
+  padding: 10px 24px;
+  width: 100px;
+  height: 10%;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: pink;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #ff6b6b;
+  }
+`;
+
 export const StyledInput = styled.input`
   padding: 5px;
   background-color: whitesmoke;
 `;
 
-export default { StyledTextArea, StyledButton, StyledInput };
+export const StyledRealTimeData = styled.div`
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  gap: 10px;
+`;
+
+export const StyledDataItem = styled.p`
+  margin-bottom: 5px;
+`;
+
+export default {
+  StyledTextArea,
+  StyledButton,
+  StyledInput,
+  StyledRealTimeData,
+  StyledDataItem,
+  ReplaceButton,
+};
