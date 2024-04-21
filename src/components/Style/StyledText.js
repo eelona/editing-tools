@@ -30,6 +30,7 @@ export const StyledButton = styled.button`
   border-radius: 8px;
   cursor: pointer;
   margin-right: 10px;
+  margin-top: 15px;
   transition: background-color 0.3s ease-in-out;
 
   &:hover {
@@ -62,7 +63,9 @@ export const StyledInput = styled.input`
 `;
 
 export const StyledRealTimeData = styled.div`
-  background-color: #f0f0f0;
+  background-color: pink;
+  height: 550px;
+  width: 200px;
   padding: 10px;
   border-radius: 5px;
   margin: 10px 0;
@@ -72,12 +75,16 @@ export const StyledRealTimeData = styled.div`
   position: fixed;
   top: 20px;
   right: 20px;
-  gap: 10px;
+  gap: 30px;
+  &:hover {
+    background-color: #ff6b6b;
+  }
 `;
 
 export const StyledDataItem = styled.p`
   margin-bottom: 5px;
 `;
+
 
 export default {
   StyledTextArea,
